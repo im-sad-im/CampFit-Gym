@@ -1,7 +1,25 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    color: white;
     background-color: #000;
+    font-family: Poppins;
+    color: #ffffff;
+}
+h1{
+    font-size: 4.5rem;
 }
 .navbar-toggler{
     border:none;
+}
+.font-head {
+    font-family: Bebas Neue;
+}
+.primary-text-color{
+    color: #A1E533;
+}
+.nav-link{
+    color: #ffff;
 }
