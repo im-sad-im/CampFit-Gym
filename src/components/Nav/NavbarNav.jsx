@@ -7,7 +7,7 @@ function NavbarNav() {
   return (
     <Navbar variant='dark' expand="lg">
       <Container>
-        <Navbar.Brand href="#home"><img src={logoImg} alt="campfit-logo" style={{width: "4rem"}}/></Navbar.Brand>
+        <Navbar.Brand href="/"><img src={logoImg} alt="campfit-logo" style={{width: "4rem"}}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
