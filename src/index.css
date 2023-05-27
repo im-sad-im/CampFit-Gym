@@ -24,12 +24,18 @@ h1{
     color: #ffff;
 }
 
+/* buttons */
 .btn-main{
     background-color: #A1E533 ;
     color: black;
     border: 1px solid #A1E533;
+    
+}
+.my-btn{
     border-radius: 1.5rem;
     font-weight: 500;
+    padding: 15px 28px;
+    font-size: 14px;
 }
 .btn-main:hover{
     background-color:  black;
@@ -47,4 +53,18 @@ h1{
     background-color:  #A1E533;
     color: black ;
     border : 1px solid #A1E533;
+}
+.my-btn1:hover{
+    animation: color 4s linear infinite;
+}
+/* play icon */
+.play-icon{
+    opacity: 0;
+    width: 0;
+    transition: .5s;
+}
+.my-btn1:hover .play-icon {
+    opacity: 1;
+    width: auto;
+    padding-left: 10px;
 }
