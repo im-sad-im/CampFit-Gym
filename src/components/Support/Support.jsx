@@ -6,10 +6,10 @@ import Livepedia from "../../assets/img/supported/livepedia.png"
 
 function Support(){
     return(
-        <>
-            <section id="support" className="support-area">
+        <> 
+            <section id="support" className="support-area text-center p-5">
                 <p>This training is supported by</p>
-                <div className="support-item">
+                <div className="support-item d-flex justify-content-center flex-wrap gap-4">
                     <img src={Workids} alt="workids-img" className="support-img"/>
                     <img src={Gymgang} alt="gymgang-img" className="support-img"/>
                     <img src={Camptran} alt="camptran-img" className="support-img"/>
