@@ -68,3 +68,14 @@ h1{
     width: auto;
     padding-left: 10px;
 }
+
+/* support component */
+.support-img{
+    width: 170px;
+    /* margin-left: 30px; */
+    filter: contrast(0);
+    cursor: pointer;
+}
+.support-img:hover{
+    filter:contrast(1);
+}
