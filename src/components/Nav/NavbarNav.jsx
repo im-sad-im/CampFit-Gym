@@ -5,7 +5,7 @@ import logoImg from '../../assets/img/logo/campfitLogo.png'
 
 function NavbarNav() {
   return (
-    <Navbar variant='dark' expand="lg">
+    <Navbar variant='dark' expand="lg" fixed='top' style={{backgroundColor: "#000"}} >
       <Container>
         <Navbar.Brand href="/"><img src={logoImg} alt="campfit-logo" style={{width: "4rem"}}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

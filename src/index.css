@@ -57,6 +57,11 @@ h1{
 .my-btn1:hover{
     animation: color 4s linear infinite;
 }
+
+/* hero section */
+.hero-section{
+    margin-top:70px;
+}
 /* play icon */
 .play-icon{
     opacity: 0;
@@ -68,7 +73,6 @@ h1{
     width: auto;
     padding-left: 10px;
 }
-
 /* support component */
 .support-img{
     width: 170px;
