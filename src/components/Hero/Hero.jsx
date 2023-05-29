@@ -15,7 +15,7 @@ function Hero(){
                 <Col lg={6}>
                 <h1 className='text-uppercase font-head'>build your body into a <span className="primary-text-color">healthy</span> and <span className="primary-text-color">strong body</span>.</h1>
                 <p>Sport is part of heath, so be diligent in exercising so that the body becomes strongerr and healthier to improve health and keep away from injury</p>
-                <div className="d-flex gap-2">
+                <div className="d-flex gap-1">
                 <Button className="btn-main my-btn">Join Member</Button>
                 <Button variant="dark" className="my-btn my-btn1" style={{backgroundColor : "transparent", border: "none"}}> 
                  Watch Training <BsFillPlayCircleFill className="play-icon" style={{fontSize: "1.25rem"}} /></Button>
