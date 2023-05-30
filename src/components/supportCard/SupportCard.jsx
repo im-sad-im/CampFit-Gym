@@ -8,6 +8,7 @@ import Row from "react-bootstrap/esm/Row";
 function SupportCard() {
     return (
         <>
+        <section id="supportCard">
         <Container>
         <div className="card-container d-flex flex-column">
             <h2>This is our <span className="primary-text-color">service</span></h2>
@@ -22,6 +23,7 @@ function SupportCard() {
         </Row>
         </div>
         </Container>
+        </section>
         </>
     )
 }
