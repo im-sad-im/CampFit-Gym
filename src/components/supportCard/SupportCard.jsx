@@ -1,6 +1,8 @@
 import Container from "react-bootstrap/esm/Container";
+
 import SupportCart from "./SupportCart";
-// import cards from "./cards";
+import cards from "./cards";
+import Row from "react-bootstrap/esm/Row";
 
 
 function SupportCard() {
@@ -11,7 +13,13 @@ function SupportCard() {
             <h2>This is our <span className="primary-text-color">service</span></h2>
         </div>
         <div className="d-flex">
-              <SupportCart />
+        <Row className="justify-content-sm-center gap-3">
+        {
+            cards.map((card, index)=>{
+              return(<SupportCart key={index} title={card.title} description={card.description} />)
+            })
+        }
+        </Row>
         </div>
         </Container>
         </>
