@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 function SupportCart(props){
     return(
         <>
-          <Card style={{ width: '18rem' }} className='card col-lg-4 col-md-3'>
+          <Card style={{ width: '16rem' }} className='card col-lg-4 col-md-3'>
       <Card.Body>
       {/* <i></i> */}
         <Card.Title>{props.title}</Card.Title>
