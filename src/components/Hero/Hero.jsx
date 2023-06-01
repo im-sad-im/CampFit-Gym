@@ -9,7 +9,7 @@ import {BsFillPlayCircleFill} from "react-icons/bs";
 function Hero(){
     return(
         <>
-            <section id="hero" className="hero-section">
+            <div id="hero" className="hero-section">
             <Container>
             <Row>
                 <Col lg={6}>
@@ -26,7 +26,7 @@ function Hero(){
                 </Col>
             </Row>
             </Container>
-            </section>
+            </div>
         </>
     )
 }
