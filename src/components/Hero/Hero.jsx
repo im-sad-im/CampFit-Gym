@@ -12,7 +12,7 @@ function Hero(){
             <div id="hero" className="hero-section">
             <Container>
             <Row>
-                <Col lg={6}>
+                <Col lg={8}>
                 <h1 className='text-uppercase font-head'>build your body into a <span className="primary-text-color">healthy</span> and <span className="primary-text-color">strong body</span>.</h1>
                 <p>Sport is part of heath, so be diligent in exercising so that the body becomes strongerr and healthier to improve health and keep away from injury</p>
                 <div className="d-flex gap-1">
@@ -21,7 +21,7 @@ function Hero(){
                  Watch Training <BsFillPlayCircleFill className="play-icon" style={{fontSize: "1.25rem"}} /></Button>
                 </div>
                 </Col>
-                <Col lg={6} className="text-center">
+                <Col lg={4} className="text-center">
                     <img src={HeroImg} alt="hero-img" />
                 </Col>
             </Row>
