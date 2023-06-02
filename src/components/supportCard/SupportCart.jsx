@@ -1,12 +1,12 @@
 import Card from 'react-bootstrap/Card';
 // import Col from 'react-bootstrap/esm/Col';
 
-function SupportCart({title, description}){
+function SupportCart({icon : Icon, title, description}){
     return(
         <>
           <Card style={{ width: '16rem' }} className='card col-lg-4 col-md-3'>
       <Card.Body>
-      {/* <i></i> */}
+        <Icon />
         <Card.Title>{title}</Card.Title>
         <Card.Text>
         {description}
