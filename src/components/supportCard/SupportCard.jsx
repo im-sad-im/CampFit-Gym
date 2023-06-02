@@ -5,7 +5,9 @@ import cards from "./cards";
 import Row from "react-bootstrap/esm/Row";
 
 
+
 function SupportCard() {
+  
     return (
         <>
         <section id="supportCard">
@@ -17,7 +19,8 @@ function SupportCard() {
         <Row className="justify-content-sm-center gap-3">
         {
             cards.map((card, index)=>{
-              return(<SupportCart key={index} title={card.title} description={card.description} />)
+                const Icon = card.icon;
+              return(<SupportCart key={index} icon={Icon} title={card.title} description={card.description}  />)
             })
         }
         </Row>
