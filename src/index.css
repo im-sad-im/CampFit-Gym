@@ -88,6 +88,12 @@ h1{
     padding: 20px 23px;
     color: #fff;
     background-color: #211F1F;
-    margin-left: 10px;
-    
+    margin-left: 10px; 
+}
+.icon-wrapper {
+    max-width: 2.5rem;
+    background-color: #313131;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
 }

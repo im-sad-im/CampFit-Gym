@@ -6,7 +6,9 @@ function SupportCart({icon : Icon, title, description}){
         <>
           <Card style={{ width: '16rem' }} className='card col-lg-4 col-md-3'>
       <Card.Body>
+      <div className='icon-wrapper text-center'> 
         <Icon />
+      </div>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
         {description}
