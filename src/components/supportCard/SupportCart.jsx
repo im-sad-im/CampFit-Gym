@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 function SupportCart({icon : Icon, title, description}){
     return(
         <>
-          <Card style={{ width: '16rem' }} className='card col-lg-4 col-md-3'>
+          <Card style={{ width: '16rem' }} className='col-lg-4 col-md-3'>
       <Card.Body>
       <div className='icon-wrapper text-center'> 
         <Icon />
