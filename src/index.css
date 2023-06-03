@@ -85,7 +85,7 @@ h1{
 }
 /* card */
 .card {
-    padding: 20px 23px;
+    /* padding: 20px 23px; */
     color: #fff;
     background-color: #211F1F;
     margin-left: 10px; 
