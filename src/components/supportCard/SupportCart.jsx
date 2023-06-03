@@ -5,7 +5,7 @@ function SupportCart({icon : Icon, title, description}){
     return(
         <>
           <Card style={{ width: '16rem' }} className='col-lg-4 col-md-3'>
-      <Card.Body>
+      <Card.Body className='d-flex flex-column gap-3'>
       <div className='icon-wrapper text-center'> 
         <Icon />
       </div>
