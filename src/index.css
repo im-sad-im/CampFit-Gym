@@ -46,8 +46,6 @@ h1{
     background-color: #211F1F;
      color : #A1E533;
      border: 1px solid #A1E533;
-     border-radius: 1rem;
-     margin-left: 5px;
 }
 .btn-sec:hover{
     background-color:  #A1E533;
@@ -97,4 +95,12 @@ h1{
     padding: 8px 12px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* ebook section */
+.ebook-container {
+    background-color: #1b1a1a;
+}
+.ebook-img-wrapper{
+    background-color: #211F1F;
 }
