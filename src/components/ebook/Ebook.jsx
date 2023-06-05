@@ -7,7 +7,6 @@ function Ebook() {
     <>
       <section
         id="ebook"
-        style={{ border: "1px solid red" }}
         className="overflow-hidden ebook-container"
       >
         <Row>
