@@ -12,8 +12,8 @@ function Home(){
         <Hero />
         <Support />
         <SupportCard />
-        <ChooseUs />
         <Ebook />
+        <ChooseUs />
         </>
     )
 }

@@ -7,7 +7,7 @@ function Ebook() {
     <>
       <section
         id="ebook"
-        className="overflow-hidden ebook-container"
+        className="overflow-hidden ebook-container mt-5"
       >
         <Row>
           <Col lg={4} className="ebook-img-wrapper">
