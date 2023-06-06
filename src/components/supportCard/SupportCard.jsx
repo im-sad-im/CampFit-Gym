@@ -12,7 +12,7 @@ function SupportCard() {
         <>
         <section id="supportCard">
         <Container>
-        <div className="card-container d-flex flex-column">
+        <div className="card-heading">
             <h2>This is our <span className="primary-text-color">service</span></h2>
         </div>
         <div className="d-flex">
