@@ -81,6 +81,13 @@ h1{
 .support-img:hover{
     filter:contrast(1);
 }
+/* choose us */
+.choose-us{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 60% 85%, 0 85%);
+    height: 492px;
+    margin : 20px 0 20px 0;
+}
+
 /* card */
 .card {
     color: #fff;
