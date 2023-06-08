@@ -1,3 +1,5 @@
+import chooseImage from "../../assets/img/choose-us/chooseUsImg.png"
+
 
 function ChooseUs(){
     return(
@@ -13,7 +15,7 @@ function ChooseUs(){
                         </ol>
                     </div>
                         <div>
-                        <img alt="choose us image" />
+                        <img  src={chooseImage} alt="choose us image" />
                         </div>
                 </div>
         </section>
