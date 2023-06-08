@@ -1,12 +1,12 @@
-import chooseImage from "../../assets/img/choose-us/chooseUsImg.png"
+import chooseImage from "../../assets/img/choose-us/ch.png"
 
 
 function ChooseUs(){
     return(
         <section id="chooseUs" className="choose-us ebook-img-wrapper">
-        <div className="container d-flex gap-4">
+        <div className="container d-flex gap-4 ">
                     <div className="choose-us-content">
-                        <h2 className="text-uppercase">what makes you <span className="primary-text-color">sure</span> to choose us?</h2>
+                        <h2 className="text-uppercase font-head sub-heading">what makes you <span className="sub-heading primary-text-color font-head">sure</span> to choose us?</h2>
                         <ol>
                             <li>Campfit provides free boxing arena and pool facitlites for those who have premium members</li>
                             <li>There is a cold and comfortable resting rooom for members</li>
