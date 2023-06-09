@@ -6,6 +6,7 @@ import Col from "react-bootstrap/esm/Col";
 function ChooseUs(){
     return(
         <section id="chooseUs" className="choose-us ebook-img-wrapper">
+        <div className="container">
         <Row>
         <Col lg={6}>
                     <div className="choose-us-content">
@@ -24,6 +25,8 @@ function ChooseUs(){
                         </div>
         </Col>
         </Row>
+        </div>
+        
         </section>
 )
 }
