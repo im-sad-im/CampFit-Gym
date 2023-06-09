@@ -86,8 +86,10 @@ h1{
 }
 /* choose us */
 .choose-us{
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 60% 85%, 0 85%);
-   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 60% 85%, 0 85%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 60% 85%, 0 85%); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 100%, 60% 90%, 0 90%);;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 100%, 60% 90%, 0 90%);;
+   /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 60% 85%, 0 85%); */
     height: 492px;
     margin : 20px 0 20px 0;
 }

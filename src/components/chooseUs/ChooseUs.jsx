@@ -1,10 +1,13 @@
+import Row from "react-bootstrap/esm/Row";
 import chooseImage from "../../assets/img/choose-us/ch.png"
+import Col from "react-bootstrap/esm/Col";
 
 
 function ChooseUs(){
     return(
         <section id="chooseUs" className="choose-us ebook-img-wrapper">
-        <div className="container d-flex gap-4 ">
+        <Row>
+        <Col>
                     <div className="choose-us-content">
                         <h2 className="text-uppercase font-head sub-heading">what makes you <span className="sub-heading primary-text-color font-head">sure</span> to choose us?</h2>
                         <ol>
@@ -14,10 +17,13 @@ function ChooseUs(){
                             <li>Yoga area for friends who want to relax the body</li>
                         </ol>
                     </div>
+        </Col>
+        <Col>
                         <div>
                         <img  src={chooseImage} alt="choose us image" />
                         </div>
-                </div>
+        </Col>
+        </Row>
         </section>
 )
 }
