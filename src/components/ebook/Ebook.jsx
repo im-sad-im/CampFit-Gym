@@ -7,8 +7,9 @@ function Ebook() {
     <>
       <section
         id="ebook"
-        className="overflow-hidden ebook-container mt-5"
+        className="ebook-container mt-5"
       >
+      <div className="container">
         <Row>
           <Col lg={4} className="ebook-img-wrapper">
             <img src={ebookImg} alt="ebook image" />
@@ -27,6 +28,7 @@ function Ebook() {
             <button className="my-btn btn-sec">Download Videos</button>
           </Col>
         </Row>
+      </div>
       </section>
     </>
   );
