@@ -7,7 +7,7 @@ function ChooseUs(){
     return(
         <section id="chooseUs" className="choose-us ebook-img-wrapper">
         <Row>
-        <Col>
+        <Col lg={6}>
                     <div className="choose-us-content">
                         <h2 className="text-uppercase font-head sub-heading">what makes you <span className="sub-heading primary-text-color font-head">sure</span> to choose us?</h2>
                         <ol>
@@ -18,7 +18,7 @@ function ChooseUs(){
                         </ol>
                     </div>
         </Col>
-        <Col>
+        <Col lg={6}>
                         <div>
                         <img  src={chooseImage} alt="choose us image" />
                         </div>
