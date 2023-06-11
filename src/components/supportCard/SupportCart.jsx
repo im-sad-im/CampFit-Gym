@@ -10,10 +10,10 @@ function SupportCart({icon : Icon, title, description}){
         <Icon className="card-icon" />
       </div>
         <Card.Title>{title}</Card.Title>
-        <Card.Text>
+        <Card.Text className="subtitle">
         {description}
         </Card.Text>
-        <span>Read more</span>
+        <span className="subtitle">Read more</span>
       </Card.Body>
     </Card>
         </>
