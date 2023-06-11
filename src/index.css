@@ -1,127 +1,156 @@
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;400;500;600;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Poppins;
-}
-body{
-    background-color: #000;
-    color: #ffffff;
-}
-.heading{
-    font-size: 6rem;
-    line-height: 0.85;
-}
-.sub-heading{
-    font-size: 3.5rem;
-}
-.navbar-toggler{
-    border:none;
-}
-.font-head {
-    font-family: Bebas Neue;
-}
-.primary-text-color{
-    color: #A1E533;
-}
-.nav-link{
-    color: #ffff;
-}
 
-/* buttons */
-.btn-main{
-    background-color: #A1E533 ;
-    color: black;
-    border: 1px solid #A1E533;
-    
-}
-.my-btn{
-    border-radius: 1.5rem;
-    font-weight: 500;
-    padding: 15px 28px;
-    font-size: 14px;
-}
-.btn-main:hover{
-    background-color:  black;
-    color:  #A1E533;
-    border : 1px solid #A1E533;
-}
-.btn-sec {
-    background-color: #211F1F;
-     color : #A1E533;
-     border: 1px solid #A1E533;
-}
-.btn-sec:hover{
-    background-color:  #A1E533;
-    color: black ;
-    border : 1px solid #A1E533;
-}
-.my-btn1:hover{
-    animation: color 4s linear infinite;
-}
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: Poppins;
+  }
 
-/* hero section */
-.hero-section{
-    padding: 125px 0;
-}
-/* play icon */
-.play-icon{
-    opacity: 0;
-    width: 0;
-    transition: .5s;
-}
-.my-btn1:hover .play-icon {
-    opacity: 1;
-    width: auto;
-    padding-left: 10px;
-}
-/* support component */
-.support-img{
-    width: 170px;
-    /* margin-left: 30px; */
-    filter: contrast(0);
-    cursor: pointer;
-}
-.support-img:hover{
-    filter:contrast(1);
-}
-/* choose us */
-.choose-us{
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 60% 85%, 0 85%); */
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 100%, 60% 90%, 0 90%);;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 100%, 60% 90%, 0 90%);;
-   /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 60% 85%, 0 85%); */
-    height: 492px;
-    margin : 20px 0 20px 0;
-}
-.choose-us-content{
-    margin-top: 35px;
-}
+  body {
+      background-color: #000;
+      color: #ffffff;
+  }
 
-/* card */
-.card {
-    color: #fff;
-    background-color: #211F1F;
-}
-.icon-wrapper {
-    display: inline-block;
-    max-width: 2.5rem;
-    background-color: #313131;
-    padding: 8px 12px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.card-icon{
-    font-size: 1.25rem;
-}
-.icon-wrapper:hover .card-icon{
-    color: #A1E533;
-}
+  .heading {
+      font-size: 6rem;
+      line-height: 0.85;
+  }
 
-/* ebook section */
-.ebook-container {
-    background-color: #1b1a1a;
-}
-.ebook-img-wrapper{
-    background-color: #211F1F;
-}
+  .sub-heading {
+      font-size: 3.5rem;
+  }
+
+  .navbar-toggler {
+      border: none;
+  }
+
+  .font-head {
+      font-family: Bebas Neue;
+  }
+
+  .primary-text-color {
+      color: #A1E533;
+  }
+
+  .nav-link {
+      color: #ffff;
+  }
+
+  /* buttons */
+  .btn-main {
+      background-color: #A1E533;
+      color: black;
+      border: 1px solid #A1E533;
+
+  }
+
+  .my-btn {
+      border-radius: 1.5rem;
+      font-weight: 500;
+      padding: 15px 28px;
+      font-size: 14px;
+  }
+
+  .btn-main:hover {
+      background-color: black;
+      color: #A1E533;
+      border: 1px solid #A1E533;
+  }
+
+  .btn-sec {
+      background-color: #211F1F;
+      color: #A1E533;
+      border: 1px solid #A1E533;
+  }
+
+  .btn-sec:hover {
+      background-color: #A1E533;
+      color: black;
+      border: 1px solid #A1E533;
+  }
+
+  .my-btn1:hover {
+      animation: color 4s linear infinite;
+  }
+
+  /* hero section */
+  .hero-section {
+      padding: 125px 0;
+  }
+
+  .subtitle {
+      color: #A6A6A6;
+  }
+
+  /* play icon */
+  .play-icon {
+      opacity: 0;
+      width: 0;
+      transition: .5s;
+  }
+
+  .my-btn1:hover .play-icon {
+      opacity: 1;
+      width: auto;
+      padding-left: 10px;
+  }
+
+  /* support component */
+  .support-img {
+      width: 170px;
+      /* margin-left: 30px; */
+      filter: contrast(0);
+      cursor: pointer;
+  }
+
+  .support-img:hover {
+      filter: contrast(1);
+  }
+
+  /* choose us */
+  .choose-us {
+      /* clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 60% 85%, 0 85%); */
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 100%, 60% 90%, 0 90%);
+      ;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 100%, 60% 90%, 0 90%);
+      ;
+      /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 60% 85%, 0 85%); */
+      height: 492px;
+      margin: 20px 0 20px 0;
+  }
+
+  .choose-us-content {
+      margin-top: 35px;
+  }
+
+  /* card */
+  .card {
+      color: #fff;
+      background-color: #211F1F;
+  }
+
+  .icon-wrapper {
+      display: inline-block;
+      max-width: 2.5rem;
+      background-color: #313131;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .card-icon {
+      font-size: 1.25rem;
+  }
+
+  .icon-wrapper:hover .card-icon {
+      color: #A1E533;
+  }
+
+  /* ebook section */
+  .ebook-container {
+      background-color: #1b1a1a;
+  }
+
+  .ebook-img-wrapper {
+      background-color: #211F1F;
+  }
