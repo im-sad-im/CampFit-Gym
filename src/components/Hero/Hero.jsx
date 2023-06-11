@@ -14,7 +14,7 @@ function Hero(){
             <Container>
             <Row>
                 <Col lg={6}>
-                <h1 className='text-uppercase font-head'>build your body into a <span className="primary-text-color">healthy</span> and <span className="primary-text-color">strong body</span>.</h1>
+                <h1 className='text-uppercase font-head'>build your body into a <span className="primary-text-color font-head">healthy</span> and <span className="primary-text-color font-head">strong body.</span></h1>
                 <p className="subtitle">Sport is part of heath, so be diligent in exercising so that the body becomes strongerr and healthier to improve health and keep away from injury</p>
                 <div className="d-flex gap-1">
                 <Button className="btn-main my-btn">Join Member</Button>
