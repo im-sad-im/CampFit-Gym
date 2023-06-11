@@ -8,8 +8,8 @@ body{
     background-color: #000;
     color: #ffffff;
 }
-h1{
-    font-size: 4.5rem;
+.heading{
+    font-size: 6.5rem;
 }
 .sub-heading{
     font-size: 3.5rem;
