@@ -12,7 +12,8 @@ function SupportCard() {
         <section id="supportCard">
         <Container>
         <div className="card-heading">
-            <h2>This is our <span className="primary-text-color">service</span></h2>
+            <h2 className="sub-heading font-head">This is our <span className="primary-text-color font-head">service</span></h2>
+            <h2 className="sub-heading font-head">During training</h2>
         </div>
         <div className="d-flex">
         <Row className="justify-content-sm-center gap-3">
