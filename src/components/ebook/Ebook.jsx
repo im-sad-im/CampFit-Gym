@@ -20,7 +20,7 @@ function Ebook() {
               get <span className="primary-text-color">training online</span>{" "}
               with e-books and videos
             </h2>
-            <p>
+            <p className="subtitle">
               By doing regular exercise with a mentor for seven days, you can
               improve your poster to be stronger, and have helped many people
               achieved their dreams
