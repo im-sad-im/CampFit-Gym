@@ -2,7 +2,8 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 // import HeroImg from "../../assets/img/hero/heroImgg.png"
-import HeroImg from "../../assets/img/hero/mainHero.png"
+// import HeroImg from "../../assets/img/hero/mainHero.png"
+import HeroImg from "../../assets/img/hero/realHero.png"
 import  Button  from "react-bootstrap/Button"
 import {BsFillPlayCircleFill} from "react-icons/bs";
 
