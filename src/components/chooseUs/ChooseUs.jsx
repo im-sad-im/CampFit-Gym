@@ -1,5 +1,6 @@
 import Row from "react-bootstrap/esm/Row";
-import chooseImage from "../../assets/img/choose-us/ch.png"
+// import chooseImage from "../../assets/img/choose-us/ch.png"
+import chooseImage from "../../assets/img/choose-us/choose.png"
 import Col from "react-bootstrap/esm/Col";
 
 
