@@ -16,8 +16,8 @@ function Ebook() {
             <img src={ebookImg} className="img-fluid" alt="ebook image" />
           </Col>
           <Col lg={8} className="p-5">
-            <h2 className="text-uppercase">
-              get <span className="primary-text-color">training online</span>{" "}
+            <h2 className="text-uppercase font-head sub-heading">
+              get <span className="primary-text-color font-head">training online</span>{" "}
               with e-books and videos
             </h2>
             <p className="subtitle">
