@@ -1,6 +1,7 @@
 import Col from "react-bootstrap/esm/Col";
 import Row from "react-bootstrap/esm/Row";
-import ebookImg from "../../assets/img/ebook/ebook.png";
+// import ebookImg from "../../assets/img/ebook/ebook.png";
+import ebookImg from "../../assets/img/ebook/ebookImg.png";
 
 function Ebook() {
   return (
@@ -9,10 +10,10 @@ function Ebook() {
         id="ebook"
         className="ebook-container mt-5"
       >
-      <div className="container">
+      <div className="container" style={{paddingLeft: "0", marginLeft: "0"}}>
         <Row>
           <Col lg={4} className="ebook-img-wrapper">
-            <img src={ebookImg} alt="ebook image" />
+            <img src={ebookImg} className="img-fluid" alt="ebook image" />
           </Col>
           <Col lg={8} className="p-5">
             <h2 className="text-uppercase">
