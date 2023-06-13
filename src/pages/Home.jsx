@@ -4,6 +4,7 @@ import Support from "../components/Support/Support";
 import ChooseUs from "../components/chooseUs/ChooseUs";
 import Ebook from "../components/ebook/Ebook";
 import SupportCard from "../components/supportCard/SupportCard";
+import Testimo from "../components/testimonials/Testimo";
 
 function Home(){
     return(
@@ -14,6 +15,7 @@ function Home(){
         <SupportCard />
         <Ebook />
         <ChooseUs />
+        <Testimo />
         </>
     )
 }
