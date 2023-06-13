@@ -154,3 +154,7 @@
   .ebook-img-wrapper {
       background-color: #211F1F;
   }
+
+  ::marker{
+    color: #A1E533;
+  }
