@@ -1,6 +1,6 @@
 import image from "../../assets/img/testimonial/test.png"
 
-export default function Testimo(){
+export default function TestimonialBox(){
     return(
         <section id="testimo">
 
