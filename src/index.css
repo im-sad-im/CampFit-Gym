@@ -20,6 +20,9 @@
       font-size: 3.5rem;
   }
 
+  .sub-sub-font{
+    font-size: .9rem;
+  }
   .navbar-toggler {
       border: none;
   }
@@ -72,6 +75,8 @@
   .my-btn1:hover {
       animation: color 4s linear infinite;
   }
+
+  /* button end */
 
   /* hero section */
   .hero-section {
