@@ -2,6 +2,7 @@
 import Hero from "../components/Hero/Hero";
 import Support from "../components/Support/Support";
 import ChooseUs from "../components/chooseUs/ChooseUs";
+import Contact from "../components/contact/Contact";
 import ContactForm from "../components/contact/ContactForm";
 import Contactbox from "../components/contact/Contactbox";
 import Ebook from "../components/ebook/Ebook";
@@ -20,8 +21,9 @@ function Home(){
         <Ebook />
         <ChooseUs />
         <TestimonialBox />
-        <ContactForm />
-        <Contactbox />
+        {/* <ContactForm /> */}
+        {/* <Contactbox /> */}
+        <Contact />
         <Footer />
         </>
     )
