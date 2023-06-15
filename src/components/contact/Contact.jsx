@@ -6,12 +6,12 @@ import Container from "react-bootstrap/esm/Container";
 
 export default function Contact(){
     return(
-       <Container >
+       <Container className="my-5">
             <Row>
                 <Col lg={6} md={12}>
                 <ContactForm />
                 </Col>
-                <Col lg={6} >
+                <Col lg={6} className="mt-md-5" >
                 <Contactbox />
                 </Col>
             </Row>
