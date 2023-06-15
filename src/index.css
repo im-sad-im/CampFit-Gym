@@ -145,6 +145,7 @@
   .icon-wrapper:hover .card-icon {
       color: #A1E533;
   }
+  /* card section end   */
 
   /* ebook section */
   .ebook-container {
@@ -155,8 +156,15 @@
       background-color: #211F1F;
   }
 
+  /* ebook section end  */
   ::marker{
     color: #A1E533;
+  }
+
+  /* input field css  */
+  .inputField {
+    background-color: #000;
+    border: 1px solid #211F1F;
   }
 
 
@@ -169,3 +177,5 @@
     border: 1px solid #211F1F;
     margin-bottom: 20px;
   }
+
+  /* footer ends */
