@@ -93,6 +93,16 @@
       width: 0;
       transition: .5s;
   }
+  .play-btn{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:#A1E533;
+    cursor: pointer;
+  }
+  .play-btn:hover{
+    opacity: 0.9;
+  }
 
   .my-btn1:hover .play-icon {
       opacity: 1;
