@@ -2,6 +2,7 @@ import image from "../../assets/img/champion/champ.jpg"
 import Col from "react-bootstrap/esm/Col";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
+import {BsFillPlayCircleFill} from "react-icons/bs";
 
 export default function Champion() {
     return (
@@ -12,6 +13,7 @@ export default function Champion() {
                 </div>
                 <div className="text-center position-relative my-5">
                     <img src={image} alt="workout video" className="rounded w-50" />
+                    <BsFillPlayCircleFill  className="position-absolute play-btn"  size={70}/>
                 </div>
                 <Row>
                     <Col lg={6} >
