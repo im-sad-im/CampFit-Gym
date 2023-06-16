@@ -15,28 +15,28 @@ export default function Champion() {
                 </div>
                 <Row>
                     <Col lg={6} >
-                    <div className="w-50">
-                        <p>The achievements of our members who have bought the name of fitness to be more famous </p>
-                        <span className="primary-text-color sub-sub-font">Read more</span>
-                    </div>
+                        <div className="w-50">
+                            <p>The achievements of our members who have bought the name of fitness to be more famous </p>
+                            <span className="primary-text-color sub-sub-font">Read more</span>
+                        </div>
                     </Col>
                     <Col>
-                    <div className="w-50">
-                       <h2 className="font-head sub-heading">37<span className="primary-text-color font-head">K</span></h2> 
-                        <p className="subtitle sub-sub-font">World Champions</p>
-                    </div>
+                        <div className="w-50">
+                            <h2 className="font-head sub-heading">37<span className="primary-text-color font-head">K</span></h2>
+                            <p className="subtitle sub-sub-font">World Champions</p>
+                        </div>
                     </Col>
                     <Col>
-                    <div className="w-50">
-                       <h2 className="font-head sub-heading"> 241<span className="primary-text-color font-head">K</span></h2>
-                        <p className="subtitle sub-sub-font">Runner Up  Champions</p>
-                    </div>
+                        <div className="w-50">
+                            <h2 className="font-head sub-heading"> 241<span className="primary-text-color font-head">K</span></h2>
+                            <p className="subtitle sub-sub-font">Runner Up  Champions</p>
+                        </div>
                     </Col>
                     <Col>
-                    <div className="w-50">
-                    <h2 className="font-head sub-heading">36<span className="primary-text-color font-head">K</span></h2>
-                        <p className="subtitle sub-sub-font">Sea Games participation </p>
-                    </div>
+                        <div className="w-50">
+                            <h2 className="font-head sub-heading">36<span className="primary-text-color font-head">K</span></h2>
+                            <p className="subtitle sub-sub-font">Sea Games participation </p>
+                        </div>
                     </Col>
 
                 </Row>
