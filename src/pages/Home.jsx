@@ -1,6 +1,7 @@
 // import NavbarNav from "../components/Nav/NavbarNav";
 import Hero from "../components/Hero/Hero";
 import Support from "../components/Support/Support";
+import Champion from "../components/champion/Champion";
 import ChooseUs from "../components/chooseUs/ChooseUs";
 import Contact from "../components/contact/Contact";
 import Ebook from "../components/ebook/Ebook";
@@ -18,6 +19,7 @@ function Home(){
         <SupportCard />
         <Ebook />
         <ChooseUs />
+        <Champion />
         <TestimonialBox />
         <Contact />
         <Footer />
