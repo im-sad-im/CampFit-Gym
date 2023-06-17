@@ -3,6 +3,7 @@ import Col from "react-bootstrap/esm/Col";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import {BsFillPlayCircleFill} from "react-icons/bs";
+import Achievement from "./Achievement";
 
 export default function Champion() {
     return (
@@ -23,22 +24,13 @@ export default function Champion() {
                         </div>
                     </Col>
                     <Col>
-                        <div className="w-50">
-                            <h2 className="font-head sub-heading">37<span className="primary-text-color font-head">K</span></h2>
-                            <p className="subtitle sub-sub-font">World Champions</p>
-                        </div>
+                        <Achievement number={37} title={"World Champions"} />
                     </Col>
                     <Col>
-                        <div className="w-50">
-                            <h2 className="font-head sub-heading"> 241<span className="primary-text-color font-head">K</span></h2>
-                            <p className="subtitle sub-sub-font">Runner Up  Champions</p>
-                        </div>
+                        <Achievement number={241} title={"Runner Up  Champions"} />
                     </Col>
                     <Col>
-                        <div className="w-50">
-                            <h2 className="font-head sub-heading">36<span className="primary-text-color font-head">K</span></h2>
-                            <p className="subtitle sub-sub-font">Sea Games participation </p>
-                        </div>
+                        <Achievement number={36} title={"Sea Games participation"} />
                     </Col>
 
                 </Row>
