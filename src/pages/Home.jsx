@@ -18,8 +18,8 @@ function Home(){
         <Support />
         <SupportCard />
         <Ebook />
-        <ChooseUs />
         <Champion />
+        <ChooseUs />
         <TestimonialBox />
         <Contact />
         <Footer />
