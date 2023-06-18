@@ -4,9 +4,9 @@ export default function Footer(){
     const currentDate = new Date().getFullYear()
 
     return(
-        <div className="container text-center footer">
+        <footer className="container text-center footer">
         <div className="footer-line"></div>
             <span> © 2021-{currentDate}, All Rights Reserved</span>
-        </div>
+        </footer>
     )
 }
