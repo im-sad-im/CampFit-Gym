@@ -1,0 +1,19 @@
+/* responsive css */
+
+@media screen and (max-width:991px) {
+    .heading{
+        font-size: 5rem;
+    }
+    .sub-heading{
+        font-size: 3rem;
+    }
+}
+
+@media  (min-width:992px) {
+    .choose-us{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 100%, 60% 90%, 0 90%);
+      ;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 100%, 60% 90%, 0 90%);
+      ;
+    }
+}
