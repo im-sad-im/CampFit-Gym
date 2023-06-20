@@ -21,8 +21,8 @@ function ChooseUs() {
                         </div>
                     </Col>
                     <Col lg={6}>
-                        <div className="text-center mw-100">
-                            <img src={chooseImage} alt="choose us image" />
+                        <div className="text-center ">
+                            <img src={chooseImage} alt="choose us image" className="mw-100 choose-img"/>
                         </div>
                     </Col>
                 </Row>
