@@ -1,0 +1,10 @@
+/* responsive css */
+
+@media screen and (max-width:992px) {
+    .heading{
+        font-size: 5rem;
+    }
+    .sub-heading{
+        font-size: 3rem;
+    }
+}
