@@ -16,13 +16,17 @@
       line-height: 0.85;
   }
 
+  .mr-2{
+    margin-right: 0.5rem;
+  }
   .sub-heading {
       font-size: 3.5rem;
   }
 
-  .sub-sub-font{
-    font-size: .9rem;
+  .sub-sub-font {
+      font-size: .9rem;
   }
+
   .navbar-toggler {
       border: none;
   }
@@ -93,15 +97,17 @@
       width: 0;
       transition: .5s;
   }
-  .play-btn{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color:#A1E533;
-    cursor: pointer;
+
+  .play-btn {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #A1E533;
+      cursor: pointer;
   }
-  .play-btn:hover{
-    opacity: 0.9;
+
+  .play-btn:hover {
+      opacity: 0.9;
   }
 
   .my-btn1:hover .play-icon {
@@ -157,6 +163,7 @@
   .icon-wrapper:hover .card-icon {
       color: #A1E533;
   }
+
   /* card section end   */
 
   /* ebook section */
@@ -169,25 +176,26 @@
   }
 
   /* ebook section end  */
-  ::marker{
-    color: #A1E533;
+  ::marker {
+      color: #A1E533;
   }
 
   /* input field css  */
   .inputField {
-    background-color: #000;
-    border: 1px solid #211F1F;
+      background-color: #000;
+      border: 1px solid #211F1F;
   }
 
 
   /* footer start */
 
-  .footer{
-    padding: 20px;
+  .footer {
+      padding: 20px;
   }
-  .footer-line{
-    border: 1px solid #211F1F;
-    margin-bottom: 20px;
+
+  .footer-line {
+      border: 1px solid #211F1F;
+      margin-bottom: 20px;
   }
 
   /* footer ends */

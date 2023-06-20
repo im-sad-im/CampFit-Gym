@@ -25,7 +25,7 @@ function Ebook() {
               improve your poster to be stronger, and have helped many people
               achieved their dreams
             </p>
-            <button className="my-btn btn-main">Download Ebook</button>
+            <button className="my-btn btn-main mr-2">Download Ebook</button>
             <button className="my-btn btn-sec">Download Videos</button>
           </Col>
         </Row>
