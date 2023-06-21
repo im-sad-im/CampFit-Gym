@@ -7,6 +7,9 @@
     .sub-heading{
         font-size: 3rem;
     }
+     .ebook-img-wrapper{
+        background-color: #1b1a1a;
+    }
 }
 
 @media  (min-width:992px) {
