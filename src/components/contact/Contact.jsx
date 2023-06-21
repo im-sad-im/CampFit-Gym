@@ -11,7 +11,7 @@ export default function Contact(){
                 <Col lg={6} md={12}>
                 <ContactForm />
                 </Col>
-                <Col lg={6} className="mt-md-5" >
+                <Col lg={6} className="mt-md-5 mt-sm-5" >
                 <Contactbox />
                 </Col>
             </Row>
