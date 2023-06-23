@@ -229,6 +229,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+    padding-top: 100px;
+  }
+  .breadcrumb-item a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .home-icon {
+    margin-bottom: 5px;
   }
 
   /* footer start */
