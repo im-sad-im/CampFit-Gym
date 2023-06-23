@@ -9,8 +9,7 @@
 * {
     scrollbar-width: thin;
     scrollbar-color: #8e8e8e #ffffff;
-  }
-  
+  }  
 
   /* Chrome, Edge and Safari */
 *::-webkit-scrollbar {
@@ -223,6 +222,15 @@
       border: 1px solid #211F1F;
   }
 
+  /* about  */
+  .breadcrumbs-about{
+    background-image: url(../src/assets/img/about/breadcrumps.jpg);
+    z-index: 99;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
 
   /* footer start */
 
