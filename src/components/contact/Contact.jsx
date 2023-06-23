@@ -9,9 +9,11 @@ export default function Contact(){
        <Container className="my-5">
             <Row>
                 <Col lg={6} md={12}>
+                <h4>Contact Us</h4>
+                <p className="subtitle sub-sub-font">We usually respond before 24 hours.</p>
                 <ContactForm />
                 </Col>
-                <Col lg={6} className="mt-md-5 mt-sm-5" >
+                <Col lg={6} className="contact-box" >
                 <Contactbox />
                 </Col>
             </Row>
