@@ -233,6 +233,12 @@
       outline-color: #5f5e5e;
   }
 
+  input,
+  select,
+  textarea {
+      color: #fff;
+  }
+
   /* about  */
   .breadcrumbs-about {
       background-image: url(../src/assets/img/about/breadcrumps.jpg);
