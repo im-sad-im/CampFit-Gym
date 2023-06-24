@@ -14,7 +14,7 @@ export default function About() {
                     <Col lg={6}>
                         <PlayWorkout width='w-75' />
                     </Col>
-                    <Col lg={6}>
+                    <Col lg={6} className="align-self-center">
                         <AboutStory />
                     </Col>
                 </Row>
