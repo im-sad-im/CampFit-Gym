@@ -6,13 +6,14 @@ import Achievement from "./Achievement";
 import PlayWorkout from "./PlayWorkout";
 
 export default function Champion() {
+
     return (
         <section id="champion" className="my-5">
             <Container>
                 <div className="text-center">
                     <h1 className="font-head sub-heading">see how you turn yourself into a </h1> <span className="font-head primary-text-color sub-heading">champion</span>
                 </div>
-            <PlayWorkout />
+            <PlayWorkout width={"w-50"}/>
                 <Row>
                     <Col lg={6} >
                         <div className="w-50">
