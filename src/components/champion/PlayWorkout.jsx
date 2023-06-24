@@ -1,4 +1,5 @@
 import image from "../../assets/img/champion/champ.jpg"
+import {BsFillPlayCircleFill} from "react-icons/bs";
 
 export default function PlayWorkout(){
     return(

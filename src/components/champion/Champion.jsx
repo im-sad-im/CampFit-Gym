@@ -1,9 +1,9 @@
-import image from "../../assets/img/champion/champ.jpg"
+
 import Col from "react-bootstrap/esm/Col";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
-import {BsFillPlayCircleFill} from "react-icons/bs";
 import Achievement from "./Achievement";
+import PlayWorkout from "./PlayWorkout";
 
 export default function Champion() {
     return (
@@ -12,10 +12,7 @@ export default function Champion() {
                 <div className="text-center">
                     <h1 className="font-head sub-heading">see how you turn yourself into a </h1> <span className="font-head primary-text-color sub-heading">champion</span>
                 </div>
-                <div className="text-center position-relative my-5">
-                    <img src={image} alt="workout video" className="rounded w-50" />
-                    <BsFillPlayCircleFill  className="position-absolute play-btn"  size={70}/>
-                </div>
+            <PlayWorkout />
                 <Row>
                     <Col lg={6} >
                         <div className="w-50">
