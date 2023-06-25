@@ -1,7 +1,9 @@
 export default function Community(){
     return(
-        <div className="container">
-            <h1> community page</h1>
+        <section id="community">
+             <div className="container">
         </div>
+        </section>
+       
     );
 }
