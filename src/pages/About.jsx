@@ -3,6 +3,7 @@ import BreadcrumbsAbout from "../components/about/BreadcrumbsAbout";
 import Col from "react-bootstrap/esm/Col";
 import PlayWorkout from "../components/champion/PlayWorkout";
 import AboutStory from "../components/about/AboutStory";
+import Banner from "../components/about/Banner";
 
 export default function About() {
     return (
@@ -19,6 +20,7 @@ export default function About() {
                     </Col>
                 </Row>
             </div>
+            <Banner />
         </section>
 
     )
