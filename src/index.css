@@ -256,6 +256,10 @@
       margin-bottom: 5px;
   }
 
+  .banner-section{
+    background-image: url(../src/assets/img/about/banner-bg.jpg);
+  }
+
   /* footer start */
 
   .footer {
