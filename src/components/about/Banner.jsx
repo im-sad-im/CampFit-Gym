@@ -6,7 +6,7 @@ import  Button  from "react-bootstrap/Button"
 
 export default function Banner(){
     return(
-        <section id="banner" className="banner-section">
+        <section id="banner" className="banner-section set-bg">
             <Container>
                 <Row>
                     <Col lg={6} className="align-self-center">
