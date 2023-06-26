@@ -6,7 +6,7 @@ import {FaHome} from "react-icons/fa";
 
 export default function BreadcrumbsAbout() {
     return (
-        <section className="breadcrumbs-about">
+        <section className="breadcrumbs-about set-bg">
             <Container>
                 <Row>
                     <Col>
