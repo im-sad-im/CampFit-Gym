@@ -239,12 +239,12 @@
   .breadcrumbs-about {
       background-image: url(../src/assets/img/about/breadcrumps.jpg);
       height: 250px;
+      padding-top: 100px;
   }
   .set-bg{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    padding-top: 100px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top center;
   }
 
   .breadcrumb-item a {
