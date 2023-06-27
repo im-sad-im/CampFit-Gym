@@ -3,7 +3,7 @@ import NavbarNav from "./components/Nav/NavbarNav"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Service from "./pages/Service"
-import Gallery from "./pages/Gallery";
+import Gallery from "./pages/Gallery/Gallery";
 import Community from "./pages/Community";
 
 import { Route,Routes } from 'react-router-dom'
