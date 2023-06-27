@@ -5,8 +5,10 @@ import About from "./pages/About"
 import Service from "./pages/Service"
 import Gallery from "./pages/Gallery/Gallery";
 import Community from "./pages/Community";
+import GalleryPage1 from "./pages/Gallery/GalleryPage1";
+import GalleryPage2 from "./pages/Gallery/GalleryPage2";
 
-import { Route,Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 function App() {
@@ -14,11 +16,15 @@ function App() {
     <>
       <NavbarNav />
       <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/service" element={<Service />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/community" element={<Community />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/about" element={<About />} />
+
+        <Route path="/gallery" element={<Gallery />} >
+           <Route path="page1" element={<GalleryPage1 />} /> 
+          <Route path="page2" element={<GalleryPage2 />} />
+        </Route>
+        <Route path="/community" element={<Community />} />
       </Routes>
 
     </>

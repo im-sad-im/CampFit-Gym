@@ -15,7 +15,7 @@ function NavbarNav() {
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/service">Service</Nav.Link>
-            <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
+            <Nav.Link as={Link} to="/gallery/page1">Gallery</Nav.Link>
             <Nav.Link as={Link} to="/community">Community</Nav.Link>
           </Nav>
         </Navbar.Collapse>
