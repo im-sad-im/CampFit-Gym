@@ -2,7 +2,7 @@ import Container from "react-bootstrap/esm/Container";
 import { galleryImg } from "./GallleryFiles";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
-import Pagination from "react-bootstrap/Pagination"
+import Pagination from 'react-bootstrap/Pagination';
 
 
 export default function GalleryPage1() {
@@ -18,6 +18,14 @@ export default function GalleryPage1() {
                     }
                 </Row>
             </Container>
+            <div className="d-flex justify-content-center mt-5">
+                <Pagination size="lg">
+                    {/* <Pagination.Prev /> */}
+                    <Pagination.Item linkClassName="page-Item">{1}</Pagination.Item>
+                    <Pagination.Item href="page2">{2}</Pagination.Item>
+                    <Pagination.Next href="page2"/>
+                </Pagination>
+            </div>
         </>
     );
 }

@@ -225,6 +225,14 @@
       background-color: #000;
       border: 1px solid #211F1F;
   }
+  .page-link{
+    background-color: #A1E533;
+    color: black;
+    border: solid black;
+  }
+  .page-link:hover{
+    color: #8e8e8e;
+  }
 
   .inputField:focus {
       outline: none;
