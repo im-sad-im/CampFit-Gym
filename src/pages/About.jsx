@@ -1,5 +1,5 @@
 import Row from "react-bootstrap/esm/Row";
-import BreadcrumbsAbout from "../components/about/BreadcrumbsAbout";
+import BreadcrumbsBanner from "../components/about/BreadcrumbsBanner";
 import Col from "react-bootstrap/esm/Col";
 import PlayWorkout from "../components/champion/PlayWorkout";
 import AboutStory from "../components/about/AboutStory";
@@ -11,7 +11,7 @@ export default function About() {
     return (
         
         <section className="about my-5">
-            <BreadcrumbsAbout />
+            <BreadcrumbsBanner heading={"About Us"} currentPage={"About"}/>
             <div className="container my-5">
                 <Row>
                     <Col lg={6}>
