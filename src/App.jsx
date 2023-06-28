@@ -4,7 +4,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Service from "./pages/Service"
 import Gallery from "./pages/Gallery/Gallery";
-import Community from "./pages/Community";
+import Schedule from "./pages/Schedule";
 import GalleryPage1 from "./pages/Gallery/GalleryPage1";
 import GalleryPage2 from "./pages/Gallery/GalleryPage2";
 
@@ -24,7 +24,7 @@ function App() {
            <Route path="page1" element={<GalleryPage1 />} /> 
           <Route path="page2" element={<GalleryPage2 />} />
         </Route>
-        <Route path="/community" element={<Community />} />
+        <Route path="/schedule" element={<Schedule />} />
       </Routes>
 
     </>

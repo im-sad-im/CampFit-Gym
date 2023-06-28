@@ -1,6 +1,6 @@
-export default function Community(){
+export default function Schedule(){
     return(
-        <section id="community">
+        <section id="schedule">
              <div className="container">
         </div>
         </section>
