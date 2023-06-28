@@ -4,7 +4,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Service from "./pages/Service"
 import Gallery from "./pages/Gallery/Gallery";
-import Schedule from "./pages/Schedule";
+import Schedule from "./pages/Schedule/Schedule";
 import GalleryPage1 from "./pages/Gallery/GalleryPage1";
 import GalleryPage2 from "./pages/Gallery/GalleryPage2";
 
