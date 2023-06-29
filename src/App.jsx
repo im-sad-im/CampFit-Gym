@@ -11,6 +11,7 @@ import GalleryPage2 from "./pages/Gallery/GalleryPage2";
 import { Route, Routes } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import Monday from "./pages/Schedule/Monday";
 function App() {
   return (
     <>
@@ -24,7 +25,10 @@ function App() {
            <Route path="page1" element={<GalleryPage1 />} /> 
           <Route path="page2" element={<GalleryPage2 />} />
         </Route>
-        <Route path="/schedule" element={<Schedule />} />
+
+        <Route path="/schedule" element={<Schedule />}>
+          <Route path="monday" element={<Monday />} />
+        </Route>
       </Routes>
 
     </>
