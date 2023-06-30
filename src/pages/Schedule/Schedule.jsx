@@ -11,8 +11,9 @@ export default function Schedule() {
     return (
         <section id="schedule">
             <BreadcrumbsBanner heading={"Schedule"} currentPage={"schedule"} />
-            <Container>
+            <Container className="py-5">
                 <Row>
+                <h1 className="font-head sub-sub-heading text-center">Schedule by </h1>
                     <Col lg={12}>
                         <Link to='/schedule/monday'>
                             <Button className="btn-main my-btn">Monday</Button>
