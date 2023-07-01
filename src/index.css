@@ -225,13 +225,26 @@
       background-color: #000;
       border: 1px solid #211F1F;
   }
-  .page-link{
-    background-color: #A1E533;
-    color: black;
-    border: solid black;
+
+  /* Autofill background color */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: #ffffff;
+      transition: background-color 5000s ease-in-out 0s;
+      box-shadow: inset 0 0 20px 20px #23232329;
   }
-  .page-link:hover{
-    color: #8e8e8e;
+
+  .page-link {
+      background-color: #A1E533;
+      color: black;
+      border: solid black;
+  }
+
+  .page-link:hover {
+      color: #8e8e8e;
   }
 
   .inputField:focus {
@@ -240,16 +253,21 @@
       outline-width: thin;
       outline-color: #5f5e5e;
   }
-  input, select, textarea{
-    color: #fff;
+
+  input,
+  select,
+  textarea {
+      color: #fff;
   }
+
   /* about  */
   .breadcrumbs-about {
       background-image: url(../src/assets/img/about/breadcrumps.jpg);
       height: 250px;
       padding-top: 100px;
   }
-  .set-bg{
+
+  .set-bg {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: top center;
@@ -264,12 +282,12 @@
       margin-bottom: 5px;
   }
 
-  .banner-section{
-    background-image: url(../src/assets/img/about/banner-bg.jpg);
+  .banner-section {
+      background-image: url(../src/assets/img/about/banner-bg.jpg);
   }
 
   /* footer start */
-  
+
   .footer-line {
       border: 1px solid #211F1F;
       margin-bottom: 20px;
