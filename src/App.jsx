@@ -19,6 +19,7 @@ import Sunday from "./pages/Schedule/Sunday";
 import { Route, Routes } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import Contact from "./pages/Contact";
 function App() {
   return (
     <>
@@ -27,7 +28,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/service" element={<Service />} />
         <Route path="/about" element={<About />} />
-
+        <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} >
           <Route path="page1" element={<GalleryPage1 />} />
           <Route path="page2" element={<GalleryPage2 />} />

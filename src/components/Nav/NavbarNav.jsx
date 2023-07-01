@@ -17,6 +17,7 @@ function NavbarNav() {
             <Nav.Link as={Link} to="/service">Service</Nav.Link>
             <Nav.Link as={Link} to="/gallery/page1">Gallery</Nav.Link>
             <Nav.Link as={Link} to="/schedule/monday">Schedule</Nav.Link>
+            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
