@@ -4,7 +4,7 @@ import Contactbox from "./Contactbox";
 import Col from "react-bootstrap/esm/Col";
 import Container from "react-bootstrap/esm/Container";
 
-export default function Contact(){
+export default function ContactUs(){
     return(
        <Container className="my-5">
             <Row>

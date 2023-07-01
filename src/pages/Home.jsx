@@ -3,7 +3,7 @@ import Hero from "../components/Hero/Hero";
 import Support from "../components/Support/Support";
 import Champion from "../components/champion/Champion";
 import ChooseUs from "../components/chooseUs/ChooseUs";
-import Contact from "../components/contact/Contact";
+import ContactUs from "../components/contact/ContactUs";
 import Ebook from "../components/ebook/Ebook";
 import Footer from "../components/footer/Footer";
 import SupportCard from "../components/supportCard/SupportCard";
@@ -21,7 +21,7 @@ function Home(){
         <Champion />
         <ChooseUs />
         <TestimonialBox />
-        <Contact />
+        <ContactUs />
         <Footer />
         </>
     )

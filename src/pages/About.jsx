@@ -4,7 +4,7 @@ import Col from "react-bootstrap/esm/Col";
 import PlayWorkout from "../components/champion/PlayWorkout";
 import AboutStory from "../components/about/AboutStory";
 import Banner from "../components/about/Banner";
-import Contact from "../components/contact/Contact"
+import ContactUs from "../components/contact/ContactUs"
 import Footer from "../components/footer/Footer"
 
 export default function About() {
@@ -23,7 +23,7 @@ export default function About() {
                 </Row>
             </div>
             <Banner />
-            <Contact />
+            <ContactUs />
             <Footer />
         </section>
 

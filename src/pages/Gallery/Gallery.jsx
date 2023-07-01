@@ -9,7 +9,7 @@ export default function Gallery() {
             <div className="container text-center">
                 <h1>Gallery page</h1>
             </div>
-                <Outlet />
+            <Outlet />
             <Footer />
         </section>
     )

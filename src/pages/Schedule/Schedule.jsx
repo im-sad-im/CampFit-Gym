@@ -1,10 +1,8 @@
 import Container from "react-bootstrap/esm/Container";
 import BreadcrumbsBanner from "../../components/about/BreadcrumbsBanner";
-import Contact from "../../components/contact/Contact";
+import ContactUs from "../../components/contact/ContactUs";
 import Footer from "../../components/footer/Footer";
 import Button from "react-bootstrap/Button"
-import Row from "react-bootstrap/esm/Row";
-import Col from "react-bootstrap/esm/Col";
 import { Link, Outlet } from "react-router-dom";
 
 export default function Schedule() {
@@ -13,7 +11,7 @@ export default function Schedule() {
             <BreadcrumbsBanner heading={"Schedule"} currentPage={"schedule"} />
             <Container className="my-5">
                 <h1 className="font-head sub-sub-heading text-center">Schedule by </h1>
-                <div className="d-flex gap-2 flex-wrap justify-content-center"> 
+                <div className="d-flex gap-2 flex-wrap justify-content-center">
                     <Link to='/schedule/monday'>
                         <Button className="btn-main my-btn">Monday</Button>
                     </Link>
@@ -38,7 +36,7 @@ export default function Schedule() {
                 </div>
             </Container>
             <Outlet />
-            <Contact />
+            <ContactUs />
             <Footer />
         </section>
 
