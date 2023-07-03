@@ -6,7 +6,7 @@ export default function ContactMainForm(){
         <input type="email" placeholder="Email Address *" id="email" className="inputField py-2 px-3 rounded" required />
         <select className="inputField py-2 px-3 rounded" defaultValue={'DEFAULT'}>
             <option value="DEFAULT" disabled>---Select Class---</option>
-            <option>Body Building</option>
+            <option >Body Building</option>
             <option>Boxing</option>
             <option>Running</option>
             <option>Fitness</option>
