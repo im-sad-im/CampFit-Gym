@@ -294,3 +294,17 @@
   }
 
   /* footer ends */
+
+  .scroll-btn{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+    background-color: #A1E533;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all linear .3s;
+  }
+  .scroll-btn:hover{
+    opacity: 0.5;
+  }
