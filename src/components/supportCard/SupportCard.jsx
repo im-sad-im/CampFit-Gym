@@ -16,7 +16,7 @@ function SupportCard() {
             <h2 className="sub-heading font-head">During training</h2>
         </div>
         <div className="d-flex">
-        <Row className="justify-content-sm-center gap-3">
+        <Row className="justify-content-center gap-3">
         {
             cards.map((card, index)=>{
                 const Icon = card.icon;

@@ -2,7 +2,7 @@
 import NavbarNav from "./components/Nav/NavbarNav"
 import Home from "./pages/Home"
 import About from "./pages/About"
-import Service from "./pages/Service"
+// import Service from "./pages/Service"
 import Gallery from "./pages/Gallery/Gallery";
 import GalleryPage1 from "./pages/Gallery/GalleryPage1";
 import GalleryPage2 from "./pages/Gallery/GalleryPage2";
@@ -27,7 +27,7 @@ function App() {
       <NavbarNav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/service" element={<Service />} />
+        {/* <Route path="/service" element={<Service />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} >

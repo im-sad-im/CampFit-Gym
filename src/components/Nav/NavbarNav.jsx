@@ -14,7 +14,7 @@ function NavbarNav() {
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
-            <Nav.Link as={Link} to="/service">Service</Nav.Link>
+            <Nav.Link as={Link} to="#">Service</Nav.Link>
             <Nav.Link as={Link} to="/gallery/page1">Gallery</Nav.Link>
             <Nav.Link as={Link} to="/schedule/monday">Schedule</Nav.Link>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
